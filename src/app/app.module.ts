@@ -10,6 +10,8 @@ import { UserListComponent } from './user-list/user-list.component';
 import { FormStyle } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
+import { LandingComponent } from './landing/landing.component';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { LoginComponent } from './login/login.component';
     CreateUserComponent,
     UserDetailsComponent,
     UserListComponent,
-    LoginComponent
+    LoginComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
